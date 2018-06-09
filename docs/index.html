@@ -1,12 +1,15 @@
 <!doctype html>
 <html>
   <head>
-    <title>4Y11M2D</title>
+    <title>Macondo in a trouble</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   
   <style>
     body {
-     background-color: black; 
+     background-color: lavenderblush; 
      margin-right: 5%;
      margin-left: 5%
     }
@@ -14,27 +17,54 @@
     h1 {
       text-align: center;
       font-size: 44pt; 
-      color: white;
+      color: black;
       font-family: sans-serif
     }
 
-    iframe {
-      text-align: center
-    }
-
     p {
-      text-align: center
+      text-align: center;
+      font-size: 16pt;
+      color: black;
+      font-family: monospace
     }
     
+  ul {
+    list-style-type: circle;
+    font-size: 16pt;
+    color: black;
+    font-family: monospace
+    }
+
+    li {
+    margin: 10px 0;
+    }
+
   </style>
   
   <body>
-    <p> <img src="era_beats_logo_big.png" alt="Beats of the ERA" width="100%"> </p>
+    <p style="text-align: center"> <img src="4Y11M2D_logo.png" alt="Macondo in trouble" width="10%"> </p>
     
-    <h1> The rains last for four years, eleven months, and two days. WAT? </h1>
+    <div class="w3-panel w3-card-4 w3-light-grey" style="width:100%">
+      <p class=" w3-xlarge w3-serif">
+      <i class="fa fa-quote-right w3-xxlarge w3-text-red"></i><br>
+      <i>The rains last for four years, eleven months, and two days.</i>
+      </p>
+      <p>Gabriel Garcia Marquez. One Hundred Years of Solitude</p>
+    </div> 
     
+    <p style="text-align: left"> What can we wait for extreme weather? For finding an answer, we need to combine data from various sources and develop appropriate models of our environment. Here we tuned a <a href="https://odelaigue.github.io/airGR/" target="_blank">hydrological model</a> for 314 UK catchments using the <a href="https://www.ecmwf.int/en/forecasts/datasets/archive-datasets/reanalysis-datasets/era5" target="_blank">ERA5</a> climate reanalysis and gauged <a href="http://nrfa.ceh.ac.uk/" target="_blank">river flow time-series data</a>, and then simulated a runoff response to different scenarios of four years, eleven months, and two days of rain.</p>
 
-    <p> <iframe src="39001.html" height="620" width="1020"></iframe> </p> 
+    <p style="text-align: left"> Feel yourself Buendia family in the town of Macondo.</p>
+
+    <iframe src="map.html" height="700" width="100%" frameborder="no"></iframe> 
+
+    <p> 
+      <ul>
+        <li> <a href="https://docs.google.com/presentation/d/e/2PACX-1vT3ad_RYrzlsRuMgwlX3Bd1kBU2DtOR-HSPrS-oyW-odTRzxdyU3Ml5MdGAlX7EfxDJN_aw4XzvuHlJ/pub?start=false&loop=false&delayms=3000" target="_blank"> About </a> </li>
+        <li> <a href="https://github.com/hydrogo/4Y11M2D" target="_blank"> GitHub </a> </li>
+        <li> <a href="https://www.amazon.co.uk/Hundred-Solitude-Gabriel-Garcia-Marquez/dp/0241968585" target="_blank"> Book </a> </li>
+      </ul>   
+    </p>
 
   </body>
 </html>
